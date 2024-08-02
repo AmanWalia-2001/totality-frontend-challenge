@@ -121,7 +121,7 @@
     border-bottom: 1px solid #ddd;
   }
   .cart table th, .cart table td {
-    font-size: 10px;
+    font-size: 8px;
   }
   @media (max-width: 768px) {
     .cart {
