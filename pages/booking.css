@@ -1,0 +1,188 @@
+.book{
+    display: flex;
+    justify-content: center;
+}
+.entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .book {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .book h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  .entry {
+    text-align: center;
+    padding: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    font-size: 1.2rem;
+  }
+  .property-id {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .property-id label {
+    margin-bottom: 0;
+  }
+  .property-id input[type="number"] {
+    width: 30%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  .property-id input[type="number"]:read-only {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  button[type="submit"] {
+    background-color: #2dac38;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  button[type="submit"]:hover {
+    background-color: #123514;
+  }
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  .form-control {
+    margin-bottom: 20px;
+  }
+  .form-control label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .form-control input,.form-control textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  .cart {
+    text-align: center;
+    width: 97%;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .cart h2 {
+    margin: 0 0 10px 0;
+  }
+  .cart table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .cart table th {
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f0f0f0;
+  }
+  .cart table td {
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+  }
+  .cart table th, .cart table td {
+    font-size: 10px;
+  }
+  @media (max-width: 768px) {
+    .cart {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .cart table {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 480px) {
+    .cart {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+    }
+    .cart table {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    .cart {
+      width: 100%;
+      padding: 2px;
+      margin: 2px 0;
+      font-size: 10px;
+    }
+    .cart table {
+      font-size: 8px;
+    }
+  }
+  .exit-button {
+    background-color: #333;
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: -22px;
+    margin-right: -16px;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 16px; 
+  }
+  .exit-button:hover {
+    background-color: #444; 
+  }
+  .exit-button:active {
+    background-color: #555; 
+    transform: translateY(2px);
+  }
+  @media (max-width: 768px) {
+    .exit-button {
+      font-size: 14px; 
+      padding: 8px 16px; 
+    }
+  }
+  @media (max-width: 480px) {
+    .exit-button {
+      font-size: 12px; 
+      padding: 6px 12px; 
+    }
+  }
